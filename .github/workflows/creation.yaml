@@ -44,7 +44,7 @@ jobs:
 
 
       - name: Add EC2 Host Key
-        run: ssh-keyscan -H -t rsa 13.232.245 >> ~/.ssh/known_hosts
+        run: ssh-keyscan -H -t rsa 13.233.247.32 >> ~/.ssh/known_hosts
   
       - name: Display SSH Key and Known Hosts
         run: |
